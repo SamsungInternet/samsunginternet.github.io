@@ -31,7 +31,18 @@
           </span>
         </p>
         {% assign paragraphs = page.content | markdownify | strip_html | newline_to_br | strip_newlines | split: '<br />' %}
-        <p>{{ paragraphs[2] | truncatewords: 75 }}</p>
+        <!-- This will keep adding more paragraphs until it's longer than 150 characters or 4 paragraphs -->
+        {% assign excerpt = "" %}
+        {% for i in (2..10) %}
+        {% assign excerpt = excerpt | append: paragraphs[i] %}
+        {% assign length = excerpt | size %}
+        {% if length > 150 %}
+          {{ excerpt  | truncatewords: 50 }}
+          {% break %}
+        {% else %}
+          {% assign excerpt = excerpt | append: "<br />" %}
+        {% endif %}
+        {% endfor %}
       </a>
     </li>
     {% endif %}{% endif %}{% endfor %}
