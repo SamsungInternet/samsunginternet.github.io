@@ -35,6 +35,15 @@ layout: page
     margin: 1rem;
   }
 
+  .ul_card {
+  list-style: none;
+  margin: 0 0 1em;
+  border: 1px solid rgba(250, 250, 250, .5);
+  padding: .6em;
+  line-height:1.6em;
+  border-radius: 24px;
+}
+
   @media screen and (max-width: 800px) {
     .versions {
       display: flex;

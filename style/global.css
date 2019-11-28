@@ -80,14 +80,6 @@ main {
   width: 80px;
 }
 
-.ul_card {
-  list-style: none;
-  margin: 0 0 1em;
-  border: 1px solid #F2F2F2;
-  padding: .6em;
-  line-height:1.6em;
-}
-
 .disclaimer {
   font-size: 0.7em;
 }
