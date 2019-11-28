@@ -160,10 +160,11 @@ h1.headline svg {
   margin: 0.2em 1.2em 0.6em;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 800px) {
   img.profile-img {
     width: 200px;
-    float: right;
+    margin: 1em auto;
+    clear: both;
     border-radius: 50%;
   }
 }
