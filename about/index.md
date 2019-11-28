@@ -33,11 +33,11 @@ layout: page
   <img src="images/si-logo.svg" class="about-logo" alt="Samsung Internet Logo: a white ringed planet on a purple background">
   <p class="about-description">Samsung Internet for Android is the web browser that is pre-installed on Samsung Galaxy phones and tablets. It is based on the open source Chromium project, to which Samsung are a major contributor.</p>
 </div>
-
+<div class="version">
 <h2>Samsung Internet</h2>
 <img src="images/si-ss.jpg" class="img-width" alt="search engine DuckDuckGo.com in Samsung Snternet browser">      
 <p>Samsung Internet for Android is a simple, fast, and reliable web browser for your phone and tablet. It has replaced the stock Android browser on Samsung Galaxy devices since 2012, to provide a browser highly optimized for our devices.</p>
-<span class="center-item"><a class="img-width" href='https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en_GB&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png' class="store-btn"/></a><span>
+<a class="img-width" href='https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en_GB&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png' class="store-btn"/></a>
   <section class="versions">
     <article class="version">
       <h3>Samsung Internet Gear VR</h3>
@@ -55,6 +55,7 @@ layout: page
       </a>
     </article>
   </section>
+</div>
 
   <h2>Press Coverage</h2>
   <div class="si-more">
