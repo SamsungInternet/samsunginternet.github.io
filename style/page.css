@@ -91,7 +91,7 @@ h1.headline svg {
 }
 img.profile-img {
   border-radius: 50%;
-  max-width: 40%;
+  max-width: 70%;
   margin: 1em auto;
   clear: both;
 }
@@ -160,7 +160,7 @@ img.profile-img {
   margin: 0.2em 1.2em 0.6em;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
   img.profile-img {
     border-radius: 50%;
     max-width: 40%;
