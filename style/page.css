@@ -100,12 +100,6 @@ img.profile-img {
 .bodytext pre.language-text {
   padding: 10px;
 }
-
-img.profile-img {
-  border-radius: 50%;
-  max-width: 15rem;
-  margin-top: -10.5rem;
-}
 .bodytext pre {
   max-width: 100%;
 }
