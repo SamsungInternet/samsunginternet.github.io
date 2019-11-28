@@ -48,7 +48,7 @@ inheader: true
     <img class="profile-img" src="damon.jpg" alt="Damon Hernandez"/>
     <p>WebVR @Samsung, 3D Web Ninja, VR/AR/Mixed Reality fan, built environment enthusiast & hackathon geek.</p>
     <p class="profile-links"><a class="home" href="http://damonhernandez.blogspot.co.uk/">damonhernandez.blogspot.co.uk</a> <a class="twitter" href="https://twitter.com/metaverseone">@MetaverseOne</a> <a class="medium" href="https://medium.com/@MetaverseOne">medium.com/@MetaverseOne</a> <a class="github" href="https://github.com/Metaverse1">github.com/Metaverse1</a></p>
-    <p class="tags"><span>#WebVR</span> <span>#MixedReality</span></p>
+    <p class="tags"><span>#WebXR</span> <span>#MixedReality</span></p>
   </div>
 
   <div class="profile oui-bubble">
@@ -64,8 +64,8 @@ inheader: true
     <h2>Kevin Picchi</h2>
     <p class="location">Based in the UK</p>
     <img class="profile-img" src="kevin.jpg" alt="Kevin Picchi"/>
-    <p>El Picchi.</p>
-    <p class="profile-links"><a class="home" href="https://ada.is/">ada.is</a> <a class="twitter" href="https://twitter.com/Lady_Ada_King">@Lady_Ada_King</a> <a class="medium" href="https://medium.com/@Lady_Ada_King">medium.com/@Lady_Ada_King</a> <a class="github" href="https://github.com/AdaRoseCannon">github.com/AdaRoseCannon</a></p>
+    <p>Kevin is an intern at Samsung Internet, he likes learning new things, working with new technologies and also eating chocolate.</p>
+    <p class="profile-links"><a class="twitter" href="https://twitter.com/KevinPicchi">@KevinPicchi</a> <a class="medium" href="https://medium.com/@kevinpicchi">medium.com/@kevinpicchi</a> <a class="github" href="https://github.com/PicchiKevin">github.com/PicchiKevin</a></p>
     <p class="tags"><span>#WebVR</span> <span>#ProgressiveWebApps</span> <span>#WebPerformance</span></p>
   </div>
 
