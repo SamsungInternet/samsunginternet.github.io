@@ -21,6 +21,7 @@ layout: page
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin:1.5rem;
   }
 
   .versions {
