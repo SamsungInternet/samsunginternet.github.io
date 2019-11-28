@@ -25,21 +25,21 @@ inheader: true
   </div>
 
   <div class="profile oui-bubble">
-    <h2>Yannis Gravezas</h2>
-    <p class="location">Based in the UK</p>
-    <img class="profile-img" src="yannis.jpg" alt="Yannis Gravezas"/>
-    <p>Yannis Gravezas, is a web developer advocate at Samsung Internet. He enjoys coding audiovisual applications and longs for the new, immersive, web that's emerging.</p>
-    <p class="profile-links"><a class="medium" href="https://medium.com/@wizgrav">medium.com/@wizgrav</a> <a class="github" href="https://github.com/wizgrav">github.com/wizgrav</a></p>
-    <p class="tags"><span>#WebXR</span> <span>#WebGL</span></p>
-  </div>
-
-  <div class="profile oui-bubble">
     <h2>Diego González</h2>
     <p class="location">Based in the UK</p>
     <img class="profile-img" src="diego.jpg" alt="Diego González"/>
     <p>Diego is a Product Manager for Samsung Internet. He is envolved with Progressive Web Apps, WebXR, User Interfaces, obsessed with tech, gadgets, cats and baby goats.</p>
     <p class="profile-links"><a class="home" href="https://diek.us">diek.us</a> <a class="twitter" href="https://twitter.com/diekus">@diekus</a> <a class="medium" href="https://medium.com/@diekus">medium.com/@diekus</a> <a class="github" href="https://github.com/diekus">github.com/diekus</a></p>
     <p class="tags"><span>#WebXR</span> <span>#ProgressiveWebApps</span> <span>#CSS</span> <span>#BabyGoats</span></p>
+  </div>
+
+  <div class="profile oui-bubble">
+    <h2>Yannis Gravezas</h2>
+    <p class="location">Based in the UK</p>
+    <img class="profile-img" src="yannis.jpg" alt="Yannis Gravezas"/>
+    <p>Yannis Gravezas, is a web developer advocate at Samsung Internet. He enjoys coding audiovisual applications and longs for the new, immersive, web that's emerging.</p>
+    <p class="profile-links"><a class="medium" href="https://medium.com/@wizgrav">medium.com/@wizgrav</a> <a class="github" href="https://github.com/wizgrav">github.com/wizgrav</a></p>
+    <p class="tags"><span>#WebXR</span> <span>#WebGL</span></p>
   </div>
 
   <div class="profile oui-bubble">
