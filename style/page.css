@@ -32,9 +32,10 @@ h1.headline svg {
 }
 
 img.profile-img {
-  border-radius: 10%;
-  max-width: 10rem;
+  border-radius: 50%;
+  max-width: 7rem;
   margin: auto;
+  float: right;
 }
 
 @media only screen and (min-width: 600px) {
