@@ -6,7 +6,7 @@ layout: page
 ---
 
 <style>
-  img-width {
+  .img-width {
     width: 100%;
   }
 </style>
