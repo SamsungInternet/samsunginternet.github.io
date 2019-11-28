@@ -4,9 +4,8 @@
     {% for page in sorted %}
     {% assign folder = page.path | split: "/" %}
     {% assign date = folder[1] | split: "--" | first | date: "%a, %b %d, %y"  %}
-    {% assign stub = folder[1] | split: "--" | last | handleize  %}
     {% assign length = folder[1] | split: "--" | size %}
-    {% if length == 2 %}{% if folder[0] == "posts" %}
+    {% if length >= 2 %}{% if folder[0] == "posts" %}
     <li class="item">
       <a href="{{ page.url }}" class="link">
         <div class="blog-image-container">
