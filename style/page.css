@@ -161,8 +161,8 @@ img.profile-img {
   img.profile-img {
     border-radius: 50%;
     max-width: 7em;
-    float: right;
     margin-top: -7rem;
+    float: right;
   }
 }
 
