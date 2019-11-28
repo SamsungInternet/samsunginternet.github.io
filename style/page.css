@@ -90,6 +90,7 @@ h1.headline svg {
   max-width: 100%;
 }
 .bodytext img.profile-img {
+  border-radius: 50%;
   max-width: 40%;
 }
 .bodytext pre {
@@ -162,6 +163,7 @@ h1.headline svg {
     width: 200px;
     float: right;
     margin: 0 0 2em 2em;
+    border-radius: 50%;
   }
 }
 @keyframes bodytextEntry {
