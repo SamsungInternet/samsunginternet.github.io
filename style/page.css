@@ -93,6 +93,7 @@ h1.headline svg {
   border-radius: 50%;
   max-width: 40%;
   margin-top: -10rem;
+  float: right;
 }
 .bodytext pre {
   max-width: 100%;
