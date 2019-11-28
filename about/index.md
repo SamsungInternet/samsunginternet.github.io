@@ -34,7 +34,7 @@ layout: page
     margin: 1rem;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .versions {
       display: flex;
       flex-direction: column;
