@@ -6,7 +6,7 @@ layout: page
 ---
 
 <style>
-  .about-image {
+  img-width {
     width: 100%;
   }
 </style>
@@ -17,20 +17,20 @@ layout: page
 </div>
 
 <h2>Samsung Internet</h2>
-<img src="images/si-ss.jpg" class="about-image" alt="search engine DuckDuckGo.com in Samsung Snternet browser">      
+<img src="images/si-ss.jpg" class="img-width" alt="search engine DuckDuckGo.com in Samsung Snternet browser">      
 <p>Samsung Internet for Android is a simple, fast, and reliable web browser for your phone and tablet. It has replaced the stock Android browser on Samsung Galaxy devices since 2012, to provide a browser highly optimized for our devices.</p>
 <a class="play-button" href='https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en_GB&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png'/></a>
   <section class="versions">
     <article class="version">
       <h3>Samsung Internet Gear VR</h3>
-      <img src="images/si4gvr-ss.jpg">
+      <img src="images/si4gvr-ss.jpg" class="img-width">
       <img src="images/si4gvr-logo.svg" class="small-logo">
       <p>Samsung Internet for Gear VR lets you browse the web and enjoy contents in an immersive environment. Browse the web on a big screen, just as if you were at the theater.</p>
       <a class="play-button" href="https://www.oculus.com/experiences/app/849609821813454/"><img id="oculus-button" src="images/oculus-badge.svg"></a>
     </article>
     <article class="version">
       <h3>Samsung Internet Beta</h3>
-      <img src="images/sib-ss.jpg">
+      <img src="images/sib-ss.jpg" class="img-width">
       <img src="images/sib-logo.svg" class="small-logo">
       <p>Introducing the Samsung Internet Beta, giving you early access to the newest features of the secure, private and optimized mobile web browser.</p>
       <a class="play-button" href='https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser.beta&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png'/></a>
