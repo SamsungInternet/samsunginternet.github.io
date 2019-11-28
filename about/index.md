@@ -71,8 +71,9 @@ layout: page
   </section>
 </div>
 
+  
+  <div class="oui-bubble">
   <h2>Press Coverage</h2>
-  <div class="si-more">
     <section>
       <article class="ul_card">“Samsung is making a very, very strong case to become the default web browser for your Android devices.”<a href="https://www.androidauthority.com/samsung-internet-browser-android-793983/"> Android Authority</a></article>
       <article class="ul_card">“Android’s best mobile browser… After using them all on various devices, the best I have found is the Samsung Internet browser.”<a href="https://www.zdnet.com/article/thanks-samsung-androids-best-mobile-browser-now-available-to-all/"> ZDNet</a></article>
