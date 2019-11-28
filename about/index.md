@@ -22,6 +22,16 @@ layout: page
     justify-content: space-around;
   }
 
+  .version {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .versions {
+    display: flex;
+    flex-direction: row;
+  }
+
 </style>
 
 <div class="about-intro">
