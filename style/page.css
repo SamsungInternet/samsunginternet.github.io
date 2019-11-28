@@ -36,6 +36,7 @@ img.profile-img {
   border-radius: 50%;
   max-width: 100%;
   margin: auto;
+  padding: 1em;
 }
 
 .bodytext {
