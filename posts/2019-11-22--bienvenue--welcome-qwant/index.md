@@ -3,7 +3,7 @@ permalink: "/bienvenue--welcome-qwant/"
 cover: img.jpg
 title: "Bienvenue / Welcome Qwant"
 description: "Article en Français et Anglais — Article in French and English"
-category: Qwant
+category: Browser Features
 img: https://miro.medium.com/max/1200/1*bu3-JyxYHZA35ypKnOaupA.png
 author: Kevin Picchi
 authorImg: https://miro.medium.com/fit/c/96/96/2*bxiHyDC_olykuiudnMZ3Sg.png
