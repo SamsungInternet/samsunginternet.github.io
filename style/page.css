@@ -33,7 +33,7 @@ h1.headline svg {
 
 img.profile-img {
   border-radius: 50%;
-  width: 7em;
+  max-width: 7em;
   margin: 1em;
   clear: both;
 }
