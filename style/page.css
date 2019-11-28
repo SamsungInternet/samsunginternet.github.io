@@ -30,9 +30,23 @@ h1.headline svg {
     opacity: 1;
   }
 }
+
+img.profile-img {
+  border-radius: 50%;
+  width: 200px;
+  margin: auto;
+}
+
 @media only screen and (min-width: 600px) {
   h1.headline {
     font-size: calc(var(--font-size-xl * 1.2));
+  }
+
+  img.profile-img {
+    border-radius: 50%;
+    max-width: 40%;
+    margin-top: -10.5rem;
+    float: right;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -160,15 +174,6 @@ img.profile-img {
   margin: 0.2em 1.2em 0.6em;
 }
 
-@media (min-width: 600px) {
-  img.profile-img {
-    border-radius: 50%;
-    max-width: 40%;
-    margin-top: -10.5rem;
-    float: right;
-  }
-  
-}
 @keyframes bodytextEntry {
   from {
     opacity: 0;
