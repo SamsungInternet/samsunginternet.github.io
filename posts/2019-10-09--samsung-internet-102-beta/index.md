@@ -3,7 +3,7 @@ permalink: "/samsung-internet-102-beta/"
 cover: img.jpg
 title: "Samsung Internet 10.2 Beta"
 description: "Broken ring error screen, new tab presentation & reining in spammy apps are all part of the story. Plus: video assistant is reborn!"
-category: Web Development
+category: Browser Features
 img: https://miro.medium.com/max/1200/1*GW7kaz-9yGYN1d8Xj3t0eg.png
 author: Daniel Appelquist
 authorImg: https://miro.medium.com/fit/c/96/96/1*Imqw3OWsQ7lFIxZJw9wnSg.jpeg
