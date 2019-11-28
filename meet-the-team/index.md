@@ -66,7 +66,7 @@ inheader: true
 
 <p class="location">Based in the UK</p>
 
-  <img class="profile-img" src="ada.jpg" alt="Laura Morinigo"/>
+  <img class="profile-img" src="laura.jpg" alt="Laura Morinigo"/>
   <p>Laura is a developer advocate at Samsung Internet. Her interests are Progressive Web Apps, emerging technologies like Voice and she loves sharing her knowledge to build more inclusive technologies.</p>
   <p class="profile-links"><a class="twitter" href="https://twitter.com/thisislalaok">@thisislalaok</a> <a class="medium" href="https://medium.com/@thisislala">medium.com/@thisislala</a> <a class="github" href="https://github.com/lauramorinigo">github.com/lauramorinigo</a></p>
   <p class="tags"><span>#ProgressiveWebApps</span> <span>#A11y</span> <span>#Voice</span></p>
