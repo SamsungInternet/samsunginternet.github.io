@@ -9,6 +9,8 @@ layout: page
   .img-width {
     width: 100%;
     margin: 1rem;
+    object-fit: cover;
+    height: 15rem;
   }
 
   .store-btn {
@@ -42,6 +44,7 @@ layout: page
   padding: .6em;
   line-height:1.6em;
   border-radius: 24px;
+
 }
 
   @media screen and (max-width: 800px) {
