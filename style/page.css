@@ -35,7 +35,7 @@ img.profile-img {
   border-radius: 50%;
   max-width: 7rem;
   margin: auto;
-  float: right;
+  clear: both;
 }
 
 @media only screen and (min-width: 600px) {
