@@ -33,7 +33,7 @@ h1.headline svg {
 
 img.profile-img {
   border-radius: 10%;
-  max-width: 30%;
+  max-width: 10rem;
   margin: auto;
 }
 
@@ -44,7 +44,7 @@ img.profile-img {
 
   img.profile-img {
     border-radius: 50%;
-    max-width: 40%;
+    max-width: 12rem;
     margin-top: -10.5rem;
     float: right;
   }
@@ -105,6 +105,7 @@ img.profile-img {
 }
 img.profile-img {
   border-radius: 50%;
+  max-width: 15rem;
   margin-top: -10.5rem;
 }
 .bodytext pre {
