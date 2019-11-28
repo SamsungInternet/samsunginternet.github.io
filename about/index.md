@@ -19,6 +19,7 @@ layout: page
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
   }
 
   .versions {
@@ -49,7 +50,9 @@ layout: page
       <img src="images/sib-ss.jpg" class="img-width">
       <img src="images/sib-logo.svg" class="small-logo">
       <p>Introducing the Samsung Internet Beta, giving you early access to the newest features of the secure, private and optimized mobile web browser.</p>
-      <a href='https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser.beta&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png' class="store-btn"/></a>
+      <a href='https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser.beta'>
+        <img alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png' class="store-btn"/>
+      </a>
     </article>
   </section>
 
