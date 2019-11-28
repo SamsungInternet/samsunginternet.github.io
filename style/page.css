@@ -89,7 +89,7 @@ h1.headline svg {
 .bodytext img {
   max-width: 100%;
 }
-.img.profile-img {
+img.profile-img {
   border-radius: 50%;
   max-width: 40%;
   margin-top: -10.5rem;
@@ -160,7 +160,7 @@ h1.headline svg {
   margin: 0.2em 1.2em 0.6em;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 800px) {
   img.profile-img {
     width: 200px;
     margin: 1em auto;
