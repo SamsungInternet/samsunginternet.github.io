@@ -162,7 +162,7 @@ img.profile-img {
 @media only screen and (min-width: 400px) {
   img.profile-img {
     border-radius: 50%;
-    max-width: 7em;
+    max-width: 9em;
     margin-top: -7rem;
     float: right;
   }
