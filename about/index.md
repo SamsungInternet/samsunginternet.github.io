@@ -10,7 +10,6 @@ layout: page
     width: 100%;
     margin: 1rem;
     object-fit: cover;
-    height: 15rem;
   }
 
   .store-btn {
