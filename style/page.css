@@ -162,8 +162,7 @@ h1.headline svg {
 @media only screen and (min-width: 1024px) {
   img.profile-img {
     width: 200px;
-    clear: both;
-    margin: auto;
+    float: right;
     border-radius: 50%;
   }
 }
