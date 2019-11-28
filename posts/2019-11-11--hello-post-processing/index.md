@@ -3,7 +3,7 @@ permalink: "/hello-post-processing/"
 cover: img.jpg
 title: "Hello Post Processing!"
 description: "Editor’s note: This post welcomes to the Samsung Internet Developer Advocacy team. Yannis will be building prototypes and proofs-of-concept using immersive web technology. We’re excited to have Yannis on board with us! -Daniel Appelquist"
-category: Webgl
+category: Immersive Web
 img: https://miro.medium.com/max/1200/1*oLn6Mwb7_v_hd69-gVZ7jg.png
 author: Yannis Gravezas
 authorImg: https://miro.medium.com/fit/c/96/96/2*9iJvARedPL1dux07uuvP_w.jpeg
