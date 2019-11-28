@@ -3,7 +3,7 @@ permalink: "/comment-dfinir-qwant-en-tant-que-moteur-de-recherche-par-dfaut--how
 cover: img.jpg
 title: "Comment définir Qwant en tant que moteur de recherche par défaut? / How to set Qwant as a default search engine ?"
 description: "Comme précédemment annoncé, les utilisateurs français de Samsung Internet ont la possibilité de choisir Qwant comme moteur de recherche par défaut.(Disponible en France, Belgique, Suisse et Canada)"
-category: Qwant
+category: Browser Features
 img: https://miro.medium.com/max/1200/0*Us8WX1qW19mrT06N.png
 author: Kevin Picchi
 authorImg: https://miro.medium.com/fit/c/96/96/2*bxiHyDC_olykuiudnMZ3Sg.png
