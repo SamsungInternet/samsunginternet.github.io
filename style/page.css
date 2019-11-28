@@ -105,9 +105,8 @@ img.profile-img {
 }
 img.profile-img {
   border-radius: 50%;
-  max-width: 70%;
-  margin: 1em auto;
-  clear: both;
+  max-width: 4rem;
+  margin-top: -10.5rem;
 }
 .bodytext pre {
   max-width: 100%;
