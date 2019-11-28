@@ -15,13 +15,6 @@ layout: page
     margin: 1rem; 
   }
 
-  .center-item {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-
   .version {
     display: flex;
     flex-direction: column;
@@ -49,15 +42,14 @@ layout: page
       <h3>Samsung Internet Gear VR</h3>
       <img src="images/si4gvr-ss.jpg" class="img-width">
       <img src="images/si4gvr-logo.svg" class="small-logo">
-      <p>Samsung Internet for Gear VR lets you browse the web and enjoy contents in an immersive environment. Browse the web on a big screen, just as if you were at the theater.</p>
-      <span class="center-item"><a href="https://www.oculus.com/experiences/app/849609821813454/"><img src="images/oculus-badge.svg" class="store-btn"></a></span>
+      <p>Samsung Internet for Gear VR lets you browse the web and enjoy contents in an immersive environment. Browse the web on a big screen, just as if you were at the theater.</p><a href="https://www.oculus.com/experiences/app/849609821813454/"><img src="images/oculus-badge.svg" class="store-btn"></a>
     </article>
     <article class="version">
       <h3>Samsung Internet Beta</h3>
       <img src="images/sib-ss.jpg" class="img-width">
       <img src="images/sib-logo.svg" class="small-logo">
       <p>Introducing the Samsung Internet Beta, giving you early access to the newest features of the secure, private and optimized mobile web browser.</p>
-      <span class="center-item"><a href='https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser.beta&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png' class="store-btn"/></a></span>
+      <a href='https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser.beta&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png' class="store-btn"/></a>
     </article>
   </section>
 
