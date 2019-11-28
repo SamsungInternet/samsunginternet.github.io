@@ -5,6 +5,12 @@ inheader: true
 layout: page
 ---
 
+<style>
+  .about-image {
+    width: 100%;
+  }
+</style>
+
 <div class="about-intro">
   <img src="images/si-logo.svg" class="about-logo" alt="Samsung Internet Logo: a white ringed planet on a purple background">
   <p class="about-description">Samsung Internet for Android is the web browser that is pre-installed on Samsung Galaxy phones and tablets. It is based on the open source Chromium project, to which Samsung are a major contributor.</p>
