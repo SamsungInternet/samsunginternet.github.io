@@ -37,7 +37,7 @@ layout: page
 <h2>Samsung Internet</h2>
 <img src="images/si-ss.jpg" class="img-width" alt="search engine DuckDuckGo.com in Samsung Snternet browser">      
 <p>Samsung Internet for Android is a simple, fast, and reliable web browser for your phone and tablet. It has replaced the stock Android browser on Samsung Galaxy devices since 2012, to provide a browser highly optimized for our devices.</p>
-<a class="img-width" href='https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en_GB&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png' class="store-btn"/></a>
+<a href='https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en_GB&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png' class="store-btn"/></a>
   <section class="versions">
     <article class="version">
       <h3>Samsung Internet Gear VR</h3>
