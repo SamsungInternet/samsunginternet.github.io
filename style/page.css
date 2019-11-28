@@ -36,24 +36,8 @@ img.profile-img {
   width: 7em;
   margin: 1em;
   clear: both;
-
-@media only screen and (min-width: 600px) {
-  h1.headline {
-    font-size: calc(var(--font-size-xl * 1.2));
-  }
-
-  img.profile-img {
-    border-radius: 50%;
-    max-width: 12rem;
-    margin-top: -10.5rem;
-    float: right;
-  }
 }
-@media only screen and (min-width: 1024px) {
-  h1.headline {
-    font-size: calc(var(--font-size-xl) * 1.4);
-  }
-}
+
 .bodytext {
   animation-name: bodytextEntry;
   animation-duration: var(--time-duration-long);
@@ -171,5 +155,24 @@ img.profile-img {
   }
   to {
     opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  h1.headline {
+    font-size: calc(var(--font-size-xl * 1.2));
+  }
+
+  img.profile-img {
+    border-radius: 50%;
+    max-width: 12rem;
+    margin-top: -10.5rem;
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  h1.headline {
+    font-size: calc(var(--font-size-xl) * 1.4);
   }
 }
