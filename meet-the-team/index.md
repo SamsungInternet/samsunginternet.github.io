@@ -66,7 +66,7 @@ inheader: true
     <img class="profile-img" src="kevin.jpg" alt="Kevin Picchi"/>
     <p>Kevin is an intern at Samsung Internet, he likes learning new things, working with new technologies and also eating chocolate.</p>
     <p class="profile-links"><a class="twitter" href="https://twitter.com/KevinPicchi">@KevinPicchi</a> <a class="medium" href="https://medium.com/@kevinpicchi">medium.com/@kevinpicchi</a> <a class="github" href="https://github.com/PicchiKevin">github.com/PicchiKevin</a></p>
-    <p class="tags"><span>#WebVR</span> <span>#ProgressiveWebApps</span> <span>#WebPerformance</span></p>
+    <p class="tags"><span>#MixedReality</span> <span>#ProgressiveWebApps</span> <span>#Chocolate</span></p>
   </div>
 
 </div>
