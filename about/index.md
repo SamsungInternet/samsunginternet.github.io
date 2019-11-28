@@ -8,6 +8,7 @@ layout: page
 <style>
   .img-width {
     width: 100%;
+    margin: 1rem;
   }
 
   .store-btn {
@@ -31,6 +32,14 @@ layout: page
   .about-logo {
     width: 10rem;
     margin: 1rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    .versions {
+      display: flex;
+      flex-direction: column;
+      margin: 1em;
+    }
   }
 
 </style>
