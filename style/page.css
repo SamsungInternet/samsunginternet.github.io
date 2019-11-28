@@ -89,7 +89,7 @@ h1.headline svg {
 .bodytext img {
   max-width: 100%;
 }
-.bodytext img.profile-img {
+.img.profile-img {
   border-radius: 50%;
   max-width: 40%;
   margin-top: -10.5rem;
