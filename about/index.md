@@ -25,6 +25,7 @@ layout: page
   .version {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
   }
 
   .versions {
