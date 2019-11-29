@@ -32,7 +32,6 @@
 /* item css*/
 .blog .item .link {
   width: 100%;
-  color: var(--text-color-primary);
 }
 .blog li.item {
   border: 1px solid transparent;
