@@ -38,3 +38,7 @@ main {
 .blog-image-container img:hover {
   transform: scale(1.1);
 }
+
+a:hover, a:active {
+  color: var(--text);
+}
