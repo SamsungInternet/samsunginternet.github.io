@@ -175,3 +175,7 @@
   border-radius: 50%;
   z-index: 1;
 }
+
+.blog ul li a:link, .blog ul li a:active, .blog ul li a:hover {
+  color: var(--text);
+}
