@@ -1,3 +1,6 @@
+article img {
+	width: 100%;
+}
 
 .article {
   padding: var(--space-inset-default);
