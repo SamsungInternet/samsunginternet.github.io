@@ -3,7 +3,7 @@ permalink: "/samsung-internet-for-power-users/"
 cover: img.jpg
 title: "Samsung Internet for Power Users"
 description: "In this article I show how I tweak my Samsung Internet to maximise security, speed and get the interface just how I like it to get the most out of the Web."
-category: Android
+category: Browser Features
 img: https://miro.medium.com/max/1200/1*UDqOseB9cLLmFx3lGrBhpQ.jpeg
 author: Ada Rose Cannon
 authorImg: https://miro.medium.com/fit/c/96/96/1*Dn8pr_cbYLtc_KfmUNhnBA.png
