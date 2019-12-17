@@ -2,7 +2,7 @@
 permalink: "/why-you-wont-hear-us-say-twa/"
 cover: img.jpg
 title: "Why You Won’t Hear Us Say TWA"
-description: "Google’s Trusted Web Activities are an important new feature that has come to Android that use Chrome Custom Tabs to present web content without browser UI. They can be used inside of a native Android app or as a wrapper for a Progressive Web App. They’re available right now in Google Chrome, and they are coming soon to Samsung Internet as well. You can read more about Trusted Web Activities on Google’s developer site. They’re a great solution for developers who want to integrate web content into their native app on Android or who want to wrap a Progressive Web App in order to submit it to the Play store. We’ve already been hearing a lot about Trusted Web Activities at events (such as Chrome Dev Summit) and many are using the acronym TWA to refer to them."
+description: "Trusted Web Activities are definitely a thing; we think Progressive Web Apps are more important."
 category: Web Development
 img: https://miro.medium.com/max/1200/1*NbMMhcCgMoBxJ8csBx3W8Q.png
 author: Daniel Appelquist
