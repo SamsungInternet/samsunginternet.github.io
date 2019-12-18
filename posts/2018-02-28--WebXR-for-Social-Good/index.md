@@ -4,7 +4,7 @@ title: WebXR for Social Good
 category: "Immersive Web"
 cover: img.jpg
 author: Damon Hernandez
-authorImg: /team/damon.jpg
+authorImg: /meet-the-team/damon.jpg
 ---
 
 ### WebXR for Social Good

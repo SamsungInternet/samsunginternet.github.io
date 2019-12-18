@@ -6,7 +6,7 @@ description: "Starting off with our series of Create conference videos are the k
 category: Web Development
 img: img.jpeg
 author: Damon Hernandez
-authorImg: /team/damon.jpg
+authorImg: /meet-the-team/damon.jpg
 tags: [Web Development, Events, JavaScript, Web, Performance]
 ---
 # All the Keynote talks from Samsung Create 2018

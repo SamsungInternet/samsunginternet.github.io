@@ -4,7 +4,7 @@ title: NYC, if I can make WebVR here…
 category: "Communities"
 cover: img.jpg
 author: Damon Hernandez
-authorImg: /team/damon.jpg
+authorImg: /meet-the-team/damon.jpg
 ---
 ### NYC, if I can make WebVR here…
 

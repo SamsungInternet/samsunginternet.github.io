@@ -4,7 +4,7 @@ title: Empowering Enterprise & International Developers - Unite Europe 2017
 category: "PWA"
 cover: img.jpg
 author: Damon Hernandez
-authorImg: /team/damon.jpg
+authorImg: /meet-the-team/damon.jpg
 ---
 
 ### Empowering Enterprise & International Developers - Unite Europe 2017

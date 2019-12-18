@@ -6,7 +6,7 @@ description: "A major component to my work over the years has been creating conn
 category: Web Development
 img: img.jpeg
 author: Damon Hernandez
-authorImg: /team/damon.jpg
+authorImg: /meet-the-team/damon.jpg
 tags: [Web Development, Create, Events]
 ---
 
