@@ -3,7 +3,7 @@ permalink: "/1st-conference-of-the-year/"
 cover: img.jpg
 title: "1st Conference of the Year"
 description: "YouGotThis was fun !"
-category: You Got This
+category: Communities
 img: https://miro.medium.com/max/1200/1*YC6z_FunitpNezxbJrPxcA.jpeg
 author: Kevin Picchi
 authorImg: https://miro.medium.com/fit/c/96/96/2*bxiHyDC_olykuiudnMZ3Sg.png
@@ -91,6 +91,6 @@ Kevin
 
 
 
-By Kevin Picchi on January 24, 2020.
+By [Kevin Picchi](https://picchi.ch?si) on January 24, 2020.
 
 [Canonical link](https://medium.com/samsung-internet-dev/1st-conference-of-the-year-92330b911892)
