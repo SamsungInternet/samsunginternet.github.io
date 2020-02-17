@@ -17,7 +17,7 @@ That is why we have signed up to support the [Diversity Charter](http://diversit
 
 As part of our commitment, we will support diversity & inclusion in the following ways when it comes to events:
 
-* Our team will not take part in panel discussions of two or more people unless there is at least one woman or non-binary person on the panel, not including the chair.
+* Our team will not take part in panel discussions of two or more people unless there is at least one person of an underrepresented group on the panel, not including the chair.
 
 * We will not speak at or sponsor an event unless the event’s organisers are clearly working hard to address the diversity of their speakers and attendees. We expect representation from different genders, ethnicities, abilities and other underrepresented groups in tech.
 
