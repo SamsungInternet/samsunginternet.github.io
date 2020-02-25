@@ -105,7 +105,7 @@ The page is available on the mobile device at http://127.0.0.1:8080 replace 8080
 
 I hope this helps you getting your Website Working on Samsung Internet, you can find more documentation from the Samsung Internet team at:
 [**Documentation**
-*Documentation from the Samsung Internet team *samsunginter.net](https://samsunginter.net/docs)
+*Documentation from the Samsung Internet team* samsunginter.net](https://samsunginter.net/docs)
 
 
 
