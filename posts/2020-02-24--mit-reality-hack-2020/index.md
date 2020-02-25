@@ -3,7 +3,7 @@ permalink: "/mit-reality-hack-2020/"
 cover: img.jpg
 title: "MIT Reality Hack 2020"
 description: "A new year, a new hackathon. Reality Virtually Hack underwent a major redesign for 2020 and rebranded as MIT Reality Hack. This year, the MIT Reality team aimed to be even better than last year by giving participants access to the latest and greatest XR headsets: Nreal light, Hololens 2, Project North Star, Varjo XR-1, and HP Reverb. I got a chance to try a few of them."
-category: MIT
+category: Immersive Web
 img: https://miro.medium.com/max/1200/1*ow40WO2FBjhQgG4HrEkLmw.jpeg
 author: Winston Chen
 authorImg: https://miro.medium.com/fit/c/96/96/1*XJ8E-BWim09Gjsr7MckJSQ.jpeg
