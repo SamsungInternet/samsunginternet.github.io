@@ -251,7 +251,7 @@ There are lots of ways to tweak this to get the animation to feel how you like. 
 
 The demo for this step is here:
 [**Shader Test**
-*Edit description*ada-shader-starter.glitch.me](https://ada-shader-starter.glitch.me/water-step3.html)
+*Water Step 3 Demo* ada-shader-starter.glitch.me](https://ada-shader-starter.glitch.me/water-step3.html)
 
 The code is here:
 
