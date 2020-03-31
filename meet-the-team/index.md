@@ -34,15 +34,6 @@ inheader: true
   </div>
 
   <div class="profile oui-bubble">
-    <h2>Yannis Gravezas</h2>
-    <p class="location">Based in the UK</p>
-    <img class="profile-img" src="yannis.jpg" alt="Yannis Gravezas"/>
-    <p>Yannis Gravezas, is a web developer advocate at Samsung Internet. He enjoys coding audiovisual applications and longs for the new, immersive, web that's emerging.</p>
-    <p class="profile-links"><a class="medium" href="https://medium.com/@wizgrav">medium.com/@wizgrav</a> <a class="github" href="https://github.com/wizgrav">github.com/wizgrav</a></p>
-    <p class="tags"><span>#WebXR</span> <span>#WebGL</span></p>
-  </div>
-
-  <div class="profile oui-bubble">
     <h2>Damon Hernandez</h2>
     <p class="location">Based in San Francisco</p>
     <img class="profile-img" src="damon.jpg" alt="Damon Hernandez"/>
@@ -64,7 +55,7 @@ inheader: true
     <h2>Kevin Picchi</h2>
     <p class="location">Based in the UK</p>
     <img class="profile-img" src="kevin.jpg" alt="Kevin Picchi"/>
-    <p>Kevin is an intern at Samsung Internet, he likes learning new things, working with new technologies and also eating chocolate.</p>
+    <p>Kevin is a adeveloper advocate at Samsung Internet, he likes learning new things, working with new technologies and also eating chocolate.</p>
     <p class="profile-links"><a class="twitter" href="https://twitter.com/KevinPicchi">@KevinPicchi</a> <a class="medium" href="https://medium.com/@kevinpicchi">medium.com/@kevinpicchi</a> <a class="github" href="https://github.com/PicchiKevin">github.com/PicchiKevin</a></p>
     <p class="tags"><span>#MixedReality</span> <span>#ProgressiveWebApps</span> <span>#Chocolate</span></p>
   </div>
