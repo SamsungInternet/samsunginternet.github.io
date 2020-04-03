@@ -3,7 +3,7 @@ permalink: "/pwa-series-service-workers-los-bsicos-de-la-experiencia-offline/"
 cover: img.jpg
 title: "PWA Series: Service Workers, los básicos de la experiencia offline"
 description: "[ English version here!]"
-category: Progressive Web App
+category: PWA
 img: https://miro.medium.com/max/1200/0*UR5vMuq_mAotNLQX.jpeg
 author: Laura Morinigo
 authorImg: https://miro.medium.com/fit/c/96/96/1*rZUWIujvpL0YX4iV8KTKTg.jpeg
