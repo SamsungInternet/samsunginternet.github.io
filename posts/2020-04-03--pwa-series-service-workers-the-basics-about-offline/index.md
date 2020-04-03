@@ -12,7 +12,7 @@ tags: [Pwa, Progressive Web App, Web Development, Web, Service Worker]
 
 # PWA Series: Service Workers, the basics about offline
 
-[ Version en español aquí ]
+[ Version en español aquí ](https://samsunginter.net/pwa-series-service-workers-los-bsicos-de-la-experiencia-offline/)
 
 In previous articles, we’ve been talking about what a [Progressive Web App](https://medium.com/samsung-internet-dev/progressive-web-apps-making-app-like-experiences-in-the-browser-a15bd388963b) is and the features needed to make a PWA: HTTPS, [a manifest file](https://medium.com/samsung-internet-dev/pwa-series-the-manifest-file-cheatsheet-459b4a5e2098), and service workers.
 
