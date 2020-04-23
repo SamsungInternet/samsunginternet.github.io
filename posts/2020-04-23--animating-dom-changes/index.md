@@ -16,7 +16,7 @@ Animating DOM Changes
 
 ### Smoothly adding, removing, resizing and reordering elements
 
-A common misconception in Web Development is that the [DOM ](http://Suggest adding one sentence that writes out Docment Objec Model, what it is, and links off to the MDN article.)is slow. The DOM, short for [Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model), is the structure of the Web Site which your code interacts with. If you were to ask me whether the DOM is slow I would answer that, like most things in computer science, it depends on the circumstances.
+A common misconception in Web Development is that the DOM is slow. The DOM, short for [Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model), is the structure of the Web Site which your code interacts with. If you were to ask me whether the DOM is slow I would answer that, like most things in computer science, it depends on the circumstances.
 
 What makes changing the DOM slow is once you have changed an element the browser has to measure the new size of each element, then has to redraw all of the elements that changed. This is always moderately expensive but modern browsers are smart about caching these calculations, invalidating as little of that cache as possible once a change is made and only doing the calculations at the last possible moment. So if you make a change to the page the browser won’t measure the new sizes until you request for it to measure them or it has to redraw the page for the next frame. If nothing has changed then it does not need to remeasure, it can use the cached values.
 
@@ -49,7 +49,8 @@ Before we cover this in depth, here is a page where I test this technique in dif
 [**Layout Tween**
 *Below are a selection of different layouts: List, Floats, Flexbox, Grid. With controls for adding elements, try…*samsunginter.net](https://samsunginter.net/layout-tween/)
 
-![A gif of the demo.](https://cdn-images-1.medium.com/max/2000/1*1Y5HMvdeIciEAlQowm1YDw.gif)*A gif of the demo.*
+![A gif of the demo.](https://cdn-images-1.medium.com/max/2000/1*1Y5HMvdeIciEAlQowm1YDw.gif)
+*A gif of the demo.*
 
 We use the same technique for adding elements and changing between different layout modes in each of the demos in the example page.
 
@@ -96,7 +97,7 @@ When scaling size the math is a lot easier to do if you do all of the transforma
 
     const clipPath = `inset(0px ${widthDiff}px ${heightDiff}px 0px)`;
 
-![Examples of the animation change between scaling and clipping. Scale on top, clipping below.](https://cdn-images-1.medium.com/max/2000/1*tpMPkudHBnHd6iPz_9uDYg.gif)*Examples of the animation change between scaling and clipping. Scale on top, clipping below.*
+![Examples of the animation change between scaling and clipping. Scale on top, clipping below.](https://cdn-images-1.medium.com/max/2000/1*tpMPkudHBnHd6iPz_9uDYg.gif) *Examples of the animation change between scaling and clipping. Scale on top, clipping below.*
 
 We can then animate these using the Web Animation API. Don’t animate both scale and clip path just pick one to use.
 
@@ -144,7 +145,8 @@ Any elements which are new won’t have a starting position, so you should find 
 ### Using our library yourself
 
 Since it’s a pretty general case we have made the library in the demo available on npm. It’s pretty bare-bones so if you need more features then please feel free to take inspiration from it to write your own or to fork it as you need.
-[**layout-tween**
+
+> [**layout-tween**
 *This is a library to assist in animating changes to the DOM, to use it Call the function on some elements whose…*www.npmjs.com](https://www.npmjs.com/package/layout-tween)
 
 
