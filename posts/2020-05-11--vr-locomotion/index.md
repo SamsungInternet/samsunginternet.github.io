@@ -378,8 +378,9 @@ To do the animations we use the popular [tween.js library](https://github.com/Cr
     ).start();
 
 This completes the effect — you can view the [source code for this demo on GitHub](https://github.com/SamsungInternet/xr-locomotion-starter) and try it out below. Feel free to fork and make your own.
-[**XR Garden**
-*Edit description*samsunginter.net](https://samsunginter.net/xr-locomotion-starter/index.html)
+
+> [**XR Garden**
+*VR Locomotion Demo* samsunginter.net](https://samsunginter.net/xr-locomotion-starter/index.html)
 
 Here is a video of the completed effect:
 
