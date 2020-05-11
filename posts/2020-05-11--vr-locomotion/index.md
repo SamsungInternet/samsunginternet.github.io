@@ -314,11 +314,11 @@ We set the sphere’s material to have colorWrite: false so that even though it 
 That way it ends up leaving a punch through to the environment beneath.
 
 ```javascript
-    *const* gridTexture = new TextureLoader().load('./images/grid.png');
+    const gridTexture = new TextureLoader().load('./images/grid.png');
     gridTexture.repeat.multiplyScalar(50);
     gridTexture.wrapS = gridTexture.wrapT = RepeatWrapping;
 
-    *const* floor2 = new Mesh(
+    const floor2 = new Mesh(
       new PlaneGeometry(50, 50, 50, 50),
       new MeshBasicMaterial({
         map: gridTexture,
@@ -377,10 +377,11 @@ Then to do the animation we split it into 3 distinct steps to reduce discomfort:
 
 To do the animations we use the popular [tween.js library](https://github.com/CreateJS/TweenJS).
 
-    *const* newPos = new Vector3();
+```javascript
+    const newPos = new Vector3();
     newPos.copy(cameraGroup.position);
     newPos.add(offset);
-    *const* dist = offset.length();
+    const dist = offset.length();
 
     blinkerSphere.visible = true;
     blinkerSphere.scale.set(2.5,2.5,2.5);
@@ -398,6 +399,7 @@ To do the animations we use the popular [tween.js library](https://github.com/Cr
       .to({x:2.5,y:2.5,z:2.5}, 100)
       .onComplete(() *=>* blinkerSphere.visible = false)
     ).start();
+```
 
 This completes the effect — you can view the [source code for this demo on GitHub](https://github.com/SamsungInternet/xr-locomotion-starter) and try it out below. Feel free to fork and make your own.
 
