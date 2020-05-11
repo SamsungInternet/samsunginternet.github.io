@@ -46,6 +46,7 @@ VR in THREE.js uses the [WebXR device API](https://developer.mozilla.org/en-US/d
 
 If you have a 3D scene already prepared you can add the THREE.js VR button to allow the user to enter immersive-vr mode in the WebXR device API. We’ll use [this guide](https://threejs.org/docs/#manual/en/introduction/How-to-create-VR-content) to do that. It’s important to note that we have to update the animation loop to use the in built function rather than the browser’s request animation frame.
 
+```javascript
     import { VRButton } from 'three/examples/jsm/webxr/VRButton.js';
 
     ...
@@ -58,6 +59,7 @@ If you have a 3D scene already prepared you can add the THREE.js VR button to al
     renderer.setAnimationLoop(function () {
         renderer.render( scene, camera );
     });
+```
 
 ### Adding Controllers
 
@@ -72,21 +74,26 @@ You get this space by using:
 
 The second is the grip space. This is the where you would put the model for whatever the user is holding in VR, such as a representation of the hardware in their hand or some virtual object like a magic wand.
 
+```javascript
     // get the grip space of the first controller
     renderer.xr.getControllerGrip(0);
+```
 
 These are both THREE.js Groups so you can add models to them as you would a normal 3D object. For example to add an object attaatched floating slightly above the user’s hand I would do:
 
+```javascript
     *const* someObject = new Mesh( geometry, material );
 
     someObject.position.set(0, 0.2, 0);
 
     controller1.add( someObject );
+```
 
 The W3C Immersive Web Working Group maintains a library called [WebXR Input Profiles](http://github.com/immersive-web/webxr-input-profiles), which is designed to let developers provide hardware appropriate 3D models where the buttons and joysticks move the same way as the real hardware.
 
 This is in built into THREE.js in XRControllerModelFactory, so you can get this behaviour in only a few lines of code:
 
+```javascript
     import { XRControllerModelFactory } from 'three/examples/jsm/webxr/XRControllerModelFactory.js';
 
     ...
@@ -99,6 +106,7 @@ This is in built into THREE.js in XRControllerModelFactory, so you can get this 
     controllerGrip1.add( model1 );
 
     scene.add( controllerGrip1 );
+```
 
 ### Drawing the navigation line
 
@@ -112,6 +120,7 @@ This model imagines that the controller is throwing out a ball, and where the ba
 
 To draw the line we need to create a line geometry:
 
+```javascript
     *const* lineSegments=10;
     *const* lineGeometry = new BufferGeometry();
     *const* lineGeometryVertices = new Float32Array((lineSegments +1) * 3);
@@ -131,6 +140,7 @@ To draw the line we need to create a line geometry:
     *const* lineMaterial = new LineBasicMaterial({ vertexColors: true, blending: AdditiveBlending });
 
     *const* guideline = new Line( lineGeometry, lineMaterial );
+```
 
 We’ve set all the corners on the line to zero for now because we do not know the shape of the line.
 
@@ -152,6 +162,7 @@ This equation is useful for getting the position at an arbitrary point in time. 
 
 In THREE.js vector terms that looks like this, the output gets written to the vector inVec for efficiency’s sake:
 
+```javascript
     *function* positionAtT(*inVec*,*t*,*p*,*v*,*g*) {
 
       inVec.copy(p);
@@ -159,6 +170,7 @@ In THREE.js vector terms that looks like this, the output gets written to the ve
       inVec.addScaledVector(g,0.5*t**2);
       return inVec;
     }
+```
 
 We have 10 vertices in our line so will need to get the position of the ball at 10 points along that line until it hits the ground. To do that we need to work out the value of t when it does hit the ground.
 
@@ -172,6 +184,7 @@ Fortunately the [general solution to the quadratic equation](https://en.wikipedi
 
 This will have two solutions: one in the future and one in the past. We are only interested in the future one so we can discard the other, which in JavaScript is:
 
+```javascript
     // Set vector P to the controller position
     *const* p = tempVecP;
     guidingController.getWorldPosition(p);
@@ -185,9 +198,11 @@ This will have two solutions: one in the future and one in the past. We are only
 
     *// Calculate t, this is the above equation written as JS
     const* t = (-v.y  + Math.sqrt(v.y**2 - 2*p.y*g.y))/g.y;
+```
 
 We can now update each vertex in the line geometry with our new coordinates to draw it in 3D space. We do this every single frame so I put it in the rendering animation loop.
 
+```javascript
     *const* from = tempVec0;
     *const* to = tempVec1;
 
@@ -201,6 +216,7 @@ We can now update each vertex in the line geometry with our new coordinates to d
     }
 
     guideline.geometry.attributes.position.needsUpdate = true;
+```
 
 We now have a droopy line which points out of our controller.
 
@@ -214,11 +230,13 @@ The better way of doing it is to use the select and the squeeze events on the se
 
 These events get exposed on the controller objects in THREE.js. You can listen for them like so:
 
+```javascript
     *const* controller1 = renderer.xr.getController(0);
 
     controller1.addEventListener('selectstart', onSelectStart);
 
     controller1.addEventListener('selectend', onSelectEnd);
+```
 
 For our case, when the user clicks the button we should set our code to attach our guideline to that controller; otherwise it should hide the guideline.
 
@@ -247,6 +265,7 @@ Teleporting in 3 steps:
 
 For a very simple teleport we can do something like this:
 
+```javascript
     // Feet pos
     *const* feetPos = tempVec0;
     renderer.xr.getCamera(camera).getWorldPosition(feetPos);
@@ -268,6 +287,7 @@ For a very simple teleport we can do something like this:
 
     // Move the camera
     cameraGroup.position.add(offset);
+```
 
 ### Animating Changes
 
@@ -293,6 +313,7 @@ We set the sphere’s material to have colorWrite: false so that even though it 
 
 That way it ends up leaving a punch through to the environment beneath.
 
+```javascript
     *const* gridTexture = new TextureLoader().load('./images/grid.png');
     gridTexture.repeat.multiplyScalar(50);
     gridTexture.wrapS = gridTexture.wrapT = RepeatWrapping;
@@ -344,6 +365,7 @@ That way it ends up leaving a punch through to the environment beneath.
     blinkerSphereMaterial.renderOrder = -101;
     floor2.renderOrder = -102;
     sky2sphere.renderOrder = -103;
+```
 
 Then to do the animation we split it into 3 distinct steps to reduce discomfort:
 
