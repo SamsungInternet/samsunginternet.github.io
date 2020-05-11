@@ -82,7 +82,7 @@ The second is the grip space. This is the where you would put the model for what
 These are both THREE.js Groups so you can add models to them as you would a normal 3D object. For example to add an object attaatched floating slightly above the user’s hand I would do:
 
 ```javascript
-    *const* someObject = new Mesh( geometry, material );
+    const someObject = new Mesh( geometry, material );
 
     someObject.position.set(0, 0.2, 0);
 
@@ -98,9 +98,9 @@ This is in built into THREE.js in XRControllerModelFactory, so you can get this 
 
     ...
 
-    *const* controllerGrip1 = renderer.xr.getControllerGrip(0);
+    const controllerGrip1 = renderer.xr.getControllerGrip(0);
 
-    *const* model1 = controllerModelFactory
+    const model1 = controllerModelFactory
       .createControllerModel( controllerGrip1 );
 
     controllerGrip1.add( model1 );
@@ -121,13 +121,13 @@ This model imagines that the controller is throwing out a ball, and where the ba
 To draw the line we need to create a line geometry:
 
 ```javascript
-    *const* lineSegments=10;
-    *const* lineGeometry = new BufferGeometry();
-    *const* lineGeometryVertices = new Float32Array((lineSegments +1) * 3);
+    const lineSegments=10;
+    const lineGeometry = new BufferGeometry();
+    const lineGeometryVertices = new Float32Array((lineSegments +1) * 3);
 
     lineGeometryVertices.fill(0);
 
-    *const* lineGeometryColors = new Float32Array((lineSegments +1) * 3);
+    const lineGeometryColors = new Float32Array((lineSegments +1) * 3);
 
     lineGeometryColors.fill(0.5);
 
@@ -137,9 +137,9 @@ To draw the line we need to create a line geometry:
 
     lineGeometry.setAttribute('color', new BufferAttribute(lineGeometryColors, 3));
 
-    *const* lineMaterial = new LineBasicMaterial({ vertexColors: true, blending: AdditiveBlending });
+    const lineMaterial = new LineBasicMaterial({ vertexColors: true, blending: AdditiveBlending });
 
-    *const* guideline = new Line( lineGeometry, lineMaterial );
+    const guideline = new Line( lineGeometry, lineMaterial );
 ```
 
 We’ve set all the corners on the line to zero for now because we do not know the shape of the line.
@@ -186,7 +186,7 @@ This will have two solutions: one in the future and one in the past. We are only
 
 ```javascript
     // Set vector P to the controller position
-    *const* p = tempVecP;
+    const p = tempVecP;
     guidingController.getWorldPosition(p);
 
     *// Set Vector V to the direction of the controller
@@ -203,8 +203,8 @@ This will have two solutions: one in the future and one in the past. We are only
 We can now update each vertex in the line geometry with our new coordinates to draw it in 3D space. We do this every single frame so I put it in the rendering animation loop.
 
 ```javascript
-    *const* from = tempVec0;
-    *const* to = tempVec1;
+    const from = tempVec0;
+    const to = tempVec1;
 
     from.set(0,0,0);
 
@@ -231,7 +231,7 @@ The better way of doing it is to use the select and the squeeze events on the se
 These events get exposed on the controller objects in THREE.js. You can listen for them like so:
 
 ```javascript
-    *const* controller1 = renderer.xr.getController(0);
+    const controller1 = renderer.xr.getController(0);
 
     controller1.addEventListener('selectstart', onSelectStart);
 
@@ -267,15 +267,15 @@ For a very simple teleport we can do something like this:
 
 ```javascript
     // Feet pos
-    *const* feetPos = tempVec0;
+    const feetPos = tempVec0;
     renderer.xr.getCamera(camera).getWorldPosition(feetPos);
     feetPos.y = 0;
 
     // cursor pos, same as our arch logic
-    *const* cursorPos = tempVec1;
-    *const* p = tempVecP;
+    const cursorPos = tempVec1;
+    const p = tempVecP;
     guidingController.getWorldPosition(p);
-    *const* v = tempVecV;
+    const v = tempVecV;
     guidingController.getWorldDirection(v);
     v.multiplyScalar(6);*
     const* t = (-v.y  + Math.sqrt(v.y**2 - 2*p.y*g.y))/g.y;
@@ -332,29 +332,29 @@ That way it ends up leaving a punch through to the environment beneath.
     floor2.name = 'floor2';
     cameraGroup.add(floor2);
 
-    *const* sky2geometry = new SphereGeometry(25, 50, 50, 0, 2 * Math.PI);
-    *const* sky2material = new MeshBasicMaterial({
+    const sky2geometry = new SphereGeometry(25, 50, 50, 0, 2 * Math.PI);
+    const sky2material = new MeshBasicMaterial({
       color: 0xaaaaaa,
       depthWrite: false
     });
 
     sky2material.side = BackSide;
-    *const* sky2sphere = new Mesh(sky2geometry, sky2material);
+    const sky2sphere = new Mesh(sky2geometry, sky2material);
     sky2sphere.name = 'sky2sphere';
     cameraGroup.add(sky2sphere);
     
 
     // The occluding sphere
 
-    *const* blinkerSphereGeometry = new SphereBufferGeometry(0.3, 64, 8, 0, Math.PI*2, 0, Math.PI * 0.85);
+    const blinkerSphereGeometry = new SphereBufferGeometry(0.3, 64, 8, 0, Math.PI*2, 0, Math.PI * 0.85);
     blinkerSphereGeometry.translate(0,0.3,0);
 
-    *const* blinkerSphereMaterial = new MeshBasicMaterial({
+    const blinkerSphereMaterial = new MeshBasicMaterial({
       side: BackSide,
       colorWrite: false
     });
 
-    *const* blinkerSphere = new Mesh(
+    const blinkerSphere = new Mesh(
       blinkerSphereGeometry, blinkerSphereMaterial
     );
     blinkerSphere.rotation.set(Math.PI/2, 0, 0);
