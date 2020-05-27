@@ -32,16 +32,6 @@ inheader: true
     <p class="profile-links"><a class="home" href="https://diek.us">diek.us</a> <a class="twitter" href="https://twitter.com/diekus">@diekus</a> <a class="medium" href="https://medium.com/@diekus">medium.com/@diekus</a> <a class="github" href="https://github.com/diekus">github.com/diekus</a></p>
     <p class="tags"><span>#WebXR</span> <span>#ProgressiveWebApps</span> <span>#CSS</span> <span>#BabyGoats</span></p>
   </div>
-
-  <div class="profile oui-bubble">
-    <h2>Damon Hernandez</h2>
-    <p class="location">Based in San Francisco</p>
-    <img class="profile-img" src="damon.jpg" alt="Damon Hernandez"/>
-    <p>WebVR @Samsung, 3D Web Ninja, VR/AR/Mixed Reality fan, built environment enthusiast & hackathon geek.</p>
-    <p class="profile-links"><a class="home" href="http://damonhernandez.blogspot.co.uk/">damonhernandez.blogspot.co.uk</a> <a class="twitter" href="https://twitter.com/metaverseone">@MetaverseOne</a> <a class="medium" href="https://medium.com/@MetaverseOne">medium.com/@MetaverseOne</a> <a class="github" href="https://github.com/Metaverse1">github.com/Metaverse1</a></p>
-    <p class="tags"><span>#WebXR</span> <span>#MixedReality</span></p>
-  </div>
-
   <div class="profile oui-bubble">
     <h2>Laura Morinigo</h2>
     <p class="location">Based in the UK</p>
