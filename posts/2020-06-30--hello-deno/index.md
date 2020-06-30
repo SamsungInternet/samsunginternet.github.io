@@ -3,7 +3,7 @@ permalink: "/hello-deno/"
 cover: img.jpg
 title: "Hello Deno!"
 description: "It’s been a while since we last heard any huge game changing news around Javascript or even new frameworks or libraries around (well maybe two days…) but recently the Javascript community is excited about a new way of working: Deno!"
-category: Deno
+category: Web Development
 img: https://miro.medium.com/max/1200/1*FAR2HAOsTukGu4BrI1Lkew.jpeg
 author: Laura Morinigo
 authorImg: https://miro.medium.com/fit/c/96/96/1*rZUWIujvpL0YX4iV8KTKTg.jpeg
