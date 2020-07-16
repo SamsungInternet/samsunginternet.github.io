@@ -22,11 +22,11 @@ One of the reasons we’re especially excited about this is because Samsung Inte
 
 You can try AR out for yourself using the XR Dinosaurs demo to place a dinosaur in your environment:
 
-**Step 1. **Download the Samsung Internet Beta from the Play Store or the Galaxy Store: [https://galaxy.store/internetbeta](https://galaxy.store/internetbeta)
+**Step 1.** Download the Samsung Internet Beta from the Play Store or the Galaxy Store: [https://galaxy.store/internetbeta](https://galaxy.store/internetbeta)
 
 **Step 2.** Go to [https://xrdinosaurs.com](https://xrdinosaurs.com) and choose Augmented Reality
 
-![](https://cdn-images-1.medium.com/max/2160/1*D-NA5joGoArlOnzhW_7_ww.jpeg)
+![Accept AR Notification](https://cdn-images-1.medium.com/max/2160/1*D-NA5joGoArlOnzhW_7_ww.jpeg)
 
 When you run this demo you will see this message, this means that the demo is able to place the virtual objects onto your environment but it cannot actually record the camera feed so you don’t have to worry about it recording what you are doing.
 
@@ -39,8 +39,8 @@ When you run this demo you will see this message, this means that the demo is ab
 This method of AR uses the Augmented Reality features of the [WebXR Device API](https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API).
 
 Here is a sample project you can use to help you get started:
-[**A-Frame Hit Test Demo**
-*Remix to make your own augmented reality scenes.*hit-test.glitch.me](https://hit-test.glitch.me/?1)
+> [**A-Frame Hit Test Demo**
+*Remix to make your own augmented reality scenes.* hit-test.glitch.me](https://hit-test.glitch.me/?1)
 
 ![Snapshot of the scene](https://cdn-images-1.medium.com/max/2000/0*sifSVby1YajqDB_3)*Snapshot of the scene*
 
