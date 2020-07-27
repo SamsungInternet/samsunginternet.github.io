@@ -4,7 +4,7 @@ cover: img.jpg
 title: "Making a useful ‘offline’ page for your web app."
 description: "In ideal conditions the user will always maintain a good connection to the web but things are seldom ideal. Fortunately since we’re been building a web app we have a service worker which has the capability of caching network responses."
 category: Progressive Web App
-img: https://miro.medium.com/max/829/1*Y8lvzpBP9Sux4LR4AnQUEw.png
+img: https://miro.medium.com/max/1200/1*t2HPW8OwtFYXLd2u33VNJg.jpeg
 author: Ada Rose Cannon
 authorImg: https://miro.medium.com/fit/c/96/96/1*Dn8pr_cbYLtc_KfmUNhnBA.png
 tags: [Progressive Web App, Pwa, Samsung Internet, Web Development, JavaScript]
