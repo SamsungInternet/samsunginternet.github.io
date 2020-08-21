@@ -91,13 +91,13 @@ inheader: true
 	</li>
 	<li class="doclist-item">
 		<a class="doclist-link purple" href="web-payments">
-			<img src="/docs-icons/ico-payment.svg" alt="Web Payments">
+			<img src="/images/docs-icons/ico-payment.svg" alt="Web Payments">
 			Web Payments
 	</a>
 	</li>
 	<li class="doclist-item">
 		<a class="doclist-link standard" href="webvr">
-			<img src="/docs-icons/ico-skybox.svg" alt="WebVR">
+			<img src="/images/docs-icons/ico-skybox.svg" alt="WebVR">
 			WebVR
 	</a>
 	</li>	
